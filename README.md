@@ -16,3 +16,14 @@
 ## Rules / Kurallar
 -  One task = one branch = one Pull Request. No direct pushes to `main`.
 -  Bir görev = bir dal (branch) = bir Pull Request. `main` dalına doğrudan push yapılmaz.
+
+
+## How to run / Nasıl çalıştırılır
+
+1. Install Node.js 22 LTS or newer and pnpm (`npm install -g pnpm`).
+2. Clone the repo and open the folder.
+3. Run `pnpm install`.
+4. Run `pnpm dev`.
+5. Open http://localhost:3000 and you should see "Hello from shared".
+
+TR: Node.js 22 LTS veya üstünü ve pnpm'i kurun, `pnpm install` ardından `pnpm dev` çalıştırın, sonra http://localhost:3000 adresini açın.
